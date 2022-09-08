@@ -1,0 +1,422 @@
+/*Обнуление*/
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+*,*:before,*:after{
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+
+nav,footer,header,aside{display: block;}
+
+html,body{
+    height: 100%;
+    width: 100%;
+    font-size: 100%;
+    line-height: 1;
+    font-size: 14px;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+input,button,textarea{font-family:inherit;}
+
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
+
+.message {
+    background-color: #191919;
+    display: flex;
+    align-items: center
+;}
+.message-text {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    padding: 16px;
+    margin: 0 auto;
+}
+.cross {
+    padding-right: 20px;
+}
+.background {
+    background: url(../images/header-bg.jpg) left no-repeat, #996B60 50%;
+}
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 25px;
+    padding-bottom: 247px;
+}
+.menu-wrapper {
+    display: flex;
+}
+.menu-item {
+font-family: 'Roboto', sans-serif;
+font-weight: 400;
+font-size: 12px;
+line-height: 18px;
+letter-spacing: 1px;
+text-transform: uppercase;
+color: #FFFFFF;
+padding-right: 60px;
+}
+.title-text {
+font-family: 'Frank Ruhl Libre', serif;
+font-weight: 400;
+font-size: 73px;
+line-height: 96px;
+color: #FFFFFF;
+padding-bottom: 34px;
+}
+.title-description {
+font-family: 'Roboto', sans-serif;
+font-weight: 400;
+font-size: 18px;
+line-height: 32px;
+color: #FFFFFF;
+padding-bottom: 40px;
+}
+.button {
+background: none;
+color: #000;
+border: 1px solid #FFFFFF;
+padding: 20px 52px;
+text-transform: uppercase;
+}
+.title-wrapper {
+    padding-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.header-wrapper {
+    padding-right: 80px;
+}
+.container {
+    width: 1320px;
+    margin: 0 auto;
+}
+main {
+    background: #E5E5E5;
+}
+.media-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 288px;
+    text-align: center;
+}
+.media {
+    padding-top: 59px;
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 41px;
+    border-bottom: 1px #BDBDBD solid;
+}
+.media-text {
+font-family: 'Roboto', sans-serif;
+font-weight: 400;
+font-size: 18px;
+line-height: 32px;
+color: #000000;
+padding-bottom: 36px;
+}
+.goods {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-bottom: 1px #BDBDBD solid;
+}
+.goods-card {
+    width: 451px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.goods-cards-wrapper {
+    display: flex;
+    padding-bottom: 120px;
+}
+.goods-title {
+font-family: 'Frank Ruhl Libre', serif;
+font-weight: 400;
+font-size: 64px;
+line-height: 80px;
+text-align: center;
+color: #000000;
+padding: 100px 0 24px 0;
+}
+.goods-link {
+font-family: 'Roboto', sans-serif;
+font-weight: 400;
+font-size: 12px;
+line-height: 18px;
+letter-spacing: 1px;
+text-transform: uppercase;
+color: #000000;
+padding-bottom: 100px;
+}
+.goods-card-title {
+font-family: 'Frank Ruhl Libre', serif;
+font-weight: 400;
+font-size: 30px;
+line-height: 44px;
+text-align: center;
+color: #000000;
+padding-bottom: 16px;
+}
+.goods-card-text {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;    
+    text-align: center;
+    color: #000000;
+    padding-bottom: 27px;
+}
+.goods-card-button {
+font-family: 'Roboto', sans-serif;
+text-transform: uppercase;
+color: #fff;
+background: #191919;
+border: 1px solid #191919;
+border-radius: 0px;
+font-weight: 400;
+font-size: 12px;
+line-height: 14px;
+text-align: center;
+letter-spacing: 1px;
+text-transform: uppercase;
+padding: 19px 48px;
+}
+.goods-card img {
+    padding-bottom: 19px;
+}
+.intro {
+    padding-top: 59px;
+}
+.intro-wrapper {
+    display: flex;
+    padding-top: 54px;
+    padding-bottom: 94px;
+    border-bottom: 1px #BDBDBD solid;
+}
+.intro-title {
+    font-family: 'Frank Ruhl Libre', serif;
+    font-weight: 400;
+font-size: 53px;
+line-height: 80px;
+color: #000000;
+margin-right: auto;
+}
+.intro-text {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+font-size: 18px;
+line-height: 32px;
+color: #000000;
+width: 548px;
+}
+.about-text-container {
+    width: 385px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.about-title {
+    font-family: 'Frank Ruhl Libre', serif;
+    padding-bottom: 19px;
+    font-weight: 400;
+font-size: 30px;
+line-height: 44px;
+color: #000000;
+}
+.about-text {
+    font-family: 'Roboto', sans-serif;
+padding-bottom: 20px;
+font-weight: 400;
+font-size: 18px;
+line-height: 32px;
+color: #000000;
+}
+.about-wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding: 59px 0 50px 0;
+}
+.reviews {
+    background: #000000;
+}
+.review-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+.review-card {
+    display: flex;
+    flex-direction: column;
+    max-width: 317px;
+    padding-bottom: 50px;
+    padding-top: 95px;
+}
+
+.quote {
+    font-family: 'Roboto', sans-serif;
+font-weight: 400;
+font-size: 18px;
+line-height: 32px;
+text-align: center;
+color: #FFFFFF;
+padding-bottom: 17px;
+}
+.name {
+    font-family: 'Roboto', sans-serif;
+font-size: 14px;
+line-height: 21px;
+text-align: center;
+text-transform: uppercase;
+color: #FFFFFF;
+padding-bottom: 10px;
+}
+.status {
+    font-family: 'Roboto', sans-serif;
+font-size: 16px;
+line-height: 24px;
+text-align: center;
+text-transform: capitalize;
+color: #8A8A8A;
+}
+.ingridients {
+    display: flex;
+    justify-content: space-between;
+    padding: 60px 0 60px 0;
+}
+.ingridients-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    width: 652px;
+}
+.ingridients-title {
+    font-family: 'Frank Ruhl Libre', serif;
+    font-size: 64px;
+line-height: 80px;
+color: #000000;
+margin-bottom: auto;
+}
+
+.ingridients-text {
+    font-family: 'Roboto', sans-serif;
+font-weight: 400;
+font-size: 18px;
+line-height: 32px;
+color: #000000;
+margin-bottom: 35px;
+}
+.ingridients-link {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+font-size: 12px;
+line-height: 18px;
+letter-spacing: 1px;
+text-transform: uppercase;
+color: #000000;
+}
+.spotify {
+    background-image: url(../images/spotify-background.jpg);
+}
+.spotify-wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 550px;
+
+}
+.spotify-mood {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #000;
+    padding: 40px 69px;
+    margin: 60px 0 20px 0;
+}
+.mood-title {
+    font-family: 'Frank Ruhl Libre', serif;
+    font-weight: 400;
+font-size: 55px;
+line-height: 80px;
+text-align: center;
+color: #FFFFFF;
+margin-bottom: 9x;
+}
+.mood-description {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+font-size: 16px;
+line-height: 28px;
+text-align: center;
+color: #FFFFFF;
+margin-bottom: 26px;
+
+}
+.spotify-button {
+background: #FFFFFF;
+border: 1px solid #FFFFFF;
+border-radius: 0px;
+padding: 20px 58px;
+font-family: 'Roboto', sans-serif;
+font-weight: 400;
+font-size: 12px;
+line-height: 14px;
+text-align: center;
+letter-spacing: 1px;
+text-transform: uppercase;
+
+color: #000000;
+
+}
+.spotify-links {
+    display: flex;
+    flex-direction: column;
+    background-color: #000;
+    padding: 30px 134px;
+    margin-bottom: 60px;
+    align-items: center;
+}
+.spotify-links ul {
+    display: flex;
+}
+.spotify-links-text {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+font-size: 16px;
+line-height: 28px;
+text-align: center;
+color: #FFFFFF;
+margin-bottom: 17px;
+}
+.spotify-link {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+font-size: 12px;
+line-height: 18px;
+text-align: center;
+letter-spacing: 1px;
+text-transform: uppercase;
+color: #FFFFFF;
+margin-right: 21px;
+}
